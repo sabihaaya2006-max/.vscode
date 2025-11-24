@@ -13,3 +13,7 @@ try:
 
 # Show result clearly
 print(f"You are on track to study about {weekly_hours} hours this week!")
+
+except ValueError:
+# Deal with non-numeric input
+print("Error: Please enter a valid number for hours studied.")
