@@ -10,3 +10,6 @@ try:
 
     # Perform a calculation
     weekly_hours = hours * 7
+
+# Show result clearly
+print(f"You are on track to study about {weekly_hours} hours this week!")
